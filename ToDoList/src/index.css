@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header .header-content {
+    position: relative;
+}
+
+.header .header-content img {
+    width: 100%;
+    height: 200px;
+}
+
+.header .header-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.header .header-body button {
+    border: none;
+    background-color: rgb(51, 184, 224);
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 1px 1px 2px rgb(54, 117, 189);
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.body {
+    margin: 25px;
+}
+
+.body .task {
+    border-bottom: 1px solid rgb(189, 182, 182);
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .task p {
+    margin: 0;
+    color: rgb(100, 95, 95);
+}
+
+.body .task h5 {
+    margin: 5px 0;
+}
+
+.body .task button {
+    border: none;
+    background-color: rgb(51, 184, 224);
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px 2px rgb(54, 117, 189);
+    font-weight: 100;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.add-task {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(99, 99, 175);
+}
+
+.add-task .top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.add-task label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.add-task h2 {
+    text-align: center;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.add-task input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(168, 164, 164);
+    background-color: rgb(99, 99, 175);
+    color: #fff;
+}
+
+.add-task button {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(51, 184, 224);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 2px rgb(54, 117, 189);
+    font-weight: 100;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
